@@ -1,3 +1,4 @@
+// .eslintrc.js example
 module.exports = {
-  extends: "airbnb-base",
+  extends: ["airbnb-base", "prettier"],
 };

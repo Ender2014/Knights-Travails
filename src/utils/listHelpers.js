@@ -29,3 +29,7 @@ export function obj2arr(obj) {
 export function getNumelements(arr, num) {
   return arr.filter((el, index) => index % num === 0);
 }
+
+export function areArraysEqual(arr1, arr2) {
+  return JSON.stringify(arr1) === JSON.stringify(arr2);
+}
